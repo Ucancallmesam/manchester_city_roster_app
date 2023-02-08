@@ -2,7 +2,7 @@ import React from 'react'
 import rosters from '../rosters.json'
 
 const PlayerList = () => {
-  const roster = rosters[6].PlayerList.map((position) => {
+  const roster = rosters[8].PlayerList.map((position) => {
     return (
       <div className="playerlist">
         <h1 className="players">PLAYERS</h1>
