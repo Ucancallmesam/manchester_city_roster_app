@@ -124,8 +124,9 @@
   line-height: 90px;
 }
 
-.feb {
+.month {
   line-height: 50px;
+  margin-left: 10px;
 }
 
 img {
@@ -170,8 +171,10 @@ img {
 
 .defenders {
   line-height: 90px;
+  margin-left: 10px;
 }
 
 .flex-position {
   display:flex;
+  margin-left: 10px;
 }
