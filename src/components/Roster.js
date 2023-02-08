@@ -7,7 +7,7 @@ const Roster = () => {
   return (
     <div className="roster">
       <h1 className="fixtures">FIXTURES</h1>
-      <h2 className="month">2023</h2>
+      <h2 className="month">2023`</h2>
       <p className="month">All fixtures are subject to change</p>
 
       {Rosters.map((roster) => {
@@ -29,11 +29,6 @@ const Roster = () => {
           </div>
         )
       })}
-
-      <div className="roster">
-        <h2 className="month">MARCH 2023</h2>
-        <p className="month">All fixtures are subject to change</p>
-      </div>
     </div>
   )
 }
